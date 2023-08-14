@@ -752,3 +752,15 @@ body {
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
+
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+}
