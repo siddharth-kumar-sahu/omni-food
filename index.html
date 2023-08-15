@@ -2,12 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Always include this line of code!!! -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
@@ -20,14 +25,16 @@
       nomodule=""
       src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
     ></script>
+
     <title>Omnifood</title>
   </head>
-
+  
   <body>
     <header class="header">
       <a href="#">
         <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
       </a>
+
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#">How it works</a></li>
@@ -37,7 +44,13 @@
           <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
         </ul>
       </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
+
     <main>
       <section class="section-hero">
         <div class="hero">
@@ -48,12 +61,12 @@
             <p class="hero-description">
               The smart 365-days-per-year food subscription that will make you
               eat healthy again. Tailored to your personal tastes and
-              nutritional needs. We have delivered 250,000+ meals last year!
+              nutritional needs.
             </p>
             <a href="#" class="btn btn--full margin-right-sm"
               >Start eating well</a
             >
-            <a href="#" class="btn btn--outline">Learn more &darr; </a>
+            <a href="#" class="btn btn--outline">Learn more &darr;</a>
             <div class="delivered-meals">
               <div class="delivered-imgs">
                 <img src="img/customers/customer-1.jpg" alt="Customer photo" />
@@ -72,12 +85,12 @@
             <img
               src="img/hero.png"
               class="hero-img"
-              alt="Women enjoying food, meals in storage container,
-            and food bowls on a table"
+              alt="Woman enjoying food, meals in storage container, and food bowls on a table"
             />
           </div>
         </div>
       </section>
+
       <section class="section-featured">
         <div class="container">
           <h2 class="heading-featured-in">As featured in</h2>
@@ -96,6 +109,7 @@
           </div>
         </div>
       </section>
+
       <section class="section-how">
         <div class="container">
           <span class="subheading">How it works</span>
@@ -118,6 +132,7 @@
               matter what diet you follow!
             </p>
           </div>
+
           <div class="step-img-box">
             <img
               src="img/app/app-screen-1.png"
@@ -166,6 +181,7 @@
           </div>
         </div>
       </section>
+
       <section class="section-meals">
         <div class="container center-text">
           <span class="subheading">Meals</span>
@@ -345,6 +361,7 @@
             </figure>
           </div>
         </div>
+
         <div class="gallery">
           <figure class="gallery-item">
             <img
@@ -433,6 +450,7 @@
           </figure>
         </div>
       </section>
+
       <section class="section-pricing">
         <div class="container">
           <span class="subheading">Pricing</span>
@@ -442,7 +460,7 @@
         </div>
 
         <div class="container grid grid--2-cols margin-bottom-md">
-          <div class="princing-plan princing-plan--starter">
+          <div class="pricing-plan pricing-plan--starter">
             <header class="plan-header">
               <p class="plan-name">Starter</p>
               <p class="plan-price"><span>$</span>399</p>
@@ -462,16 +480,14 @@
                 <span>Delivery is free</span>
               </li>
               <li class="list-item">
-                <ion-icon class="list-icon" name="close-outline"></ion-icon>
-                <span>Get access to latest recipes</span>
-              </li>
+                <ion-icon class="list-icon" name="close-outline"></ion-icon></li>
             </ul>
             <div class="plan-sing-up">
               <a href="#" class="btn btn--full">Start eating well</a>
             </div>
           </div>
 
-          <div class="princing-plan princing-plan--complete">
+          <div class="pricing-plan pricing-plan--complete">
             <header class="plan-header">
               <p class="plan-name">Complete</p>
               <p class="plan-price"><span>$</span>649</p>
@@ -543,6 +559,7 @@
           </div>
         </div>
       </section>
+
       <section class="section-cta">
         <div class="container">
           <div class="cta">
@@ -596,12 +613,13 @@
             <div
               class="cta-img-box"
               role="img"
-              aria-label="Woman enjoying food">
-            </div>
+              aria-label="Woman enjoying food"
+            ></div>
           </div>
         </div>
       </section>
     </main>
+
     <footer class="footer">
       <div class="container grid grid--footer">
         <div class="logo-col">
@@ -631,6 +649,7 @@
             Copyright &copy; 2027 by Omnifood, Inc. All rights reserved.
           </p>
         </div>
+
         <div class="address-col">
           <p class="footer-heading">Contact us</p>
           <address class="contacts">
@@ -646,6 +665,7 @@
             </p>
           </address>
         </div>
+
         <nav class="nav-col">
           <p class="footer-heading">Account</p>
           <ul class="footer-nav">
